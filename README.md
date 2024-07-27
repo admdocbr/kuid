@@ -1,0 +1,2 @@
+# kuid
+UUID shortener
