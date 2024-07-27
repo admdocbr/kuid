@@ -28,14 +28,25 @@ pip install kuid
 The following section describes a basic usage of base62.
 
 ```
-import uuid
-import kuid
-
-kuid.encode(uuid.UUID('b9926647-86a7-4f31-9c38-f7cf711bf865'))
+>>> import uuid
+>>> import kuid
+>>> 
+>>> kuid.encode(uuid.UUID('b9926647-86a7-4f31-9c38-f7cf711bf865'))
 '5eAU5M3OyqyuX93bJHopJV'
-
+>>> 
 >>> kuid.decode('5eAU5M3OyqyuX93bJHopJV')
 UUID('b9926647-86a7-4f31-9c38-f7cf711bf865')
+```
+
+It also has wrappers around basic uuid functions
+
+```
+>>> import kuid
+>>> 
+>>> kuid.kuid1()
+'47ZU06aw8pUWT5BzmVHsST'
+>>> kuid.kuid4()
+'60fq4TTss8KYXlT2yJy3AQ'
 ```
 
 # Credits
