@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kuid"
-version = "0.1.2"
+version = "0.2.0"
 description = "Library to shorten UUIDs"
 authors = ["Björn Boschman <bjorn.boschman@adm.doctor>"]
 license = "MIT"
