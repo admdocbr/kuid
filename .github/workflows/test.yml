@@ -22,7 +22,7 @@ jobs:
       - name: install dependencies
         run: poetry install
       - name: Run the tests
-        run: python -m unittest
+        run: poetry run python -m unittest
 
   ruff:
     runs-on: ubuntu-latest
